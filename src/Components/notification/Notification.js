@@ -5,7 +5,7 @@ import style from "./Notification.module.css";
 const Notification = ({ messege }) => {
   return (
     <>
-      <p>{messege}</p>
+      <p className={style.stats}>{messege}</p>
     </>
   );
 };
